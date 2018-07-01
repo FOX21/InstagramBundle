@@ -1,5 +1,5 @@
 {
-    "name": "ollieltd/instagram-bundle",
+    "name": "fox21/instagram-bundle",
     "type": "symfony-bundle",
     "description": "Use Instaphp by sesser (Randy) as a Symfony2 service. Adapted to use Instaphp v2 as a dependency.",
     "keywords": ["instagram", "api", "Symfony2"],
@@ -18,12 +18,17 @@
         {
             "name": "Stephen Wilkinson",
             "email": "stephen@crowdreactive.com"
+        },
+        {
+            "name": "Christian Mayer",
+            "email": "christian@fox21.at",
+            "homepage": "https://fox21.at"
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": "*",
-        "instaphp/instaphp": "2.*"
+        "php": ">=7.0",
+        "symfony/framework-bundle": ">=4.0",
+        "instaphp/instaphp": "~2.0"
     },
     "autoload": {
         "psr-0": { 
